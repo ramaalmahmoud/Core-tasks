@@ -1,0 +1,6 @@
+@_19_8_2024_HostAddress = http://localhost:5082
+
+GET {{_19_8_2024_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
