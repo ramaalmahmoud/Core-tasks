@@ -26,8 +26,8 @@ namespace _21_8_2024.Controllers
             return Ok(user);
         }
         [HttpGet]
-        [Route("user/GetUserById/{id}")]
-        public IActionResult GetUserById( int id)
+        [Route("user/GetUserById/{id:int}")]
+        public IActionResult GetUserById(int id)
         {
             var user = db.Users.FirstOrDefault(x => x.Id == id);
             if (user == null)
@@ -49,8 +49,9 @@ namespace _21_8_2024.Controllers
             {
                 return NotFound();
             }
-            if (name == null) { 
-            return BadRequest();
+            if (name == null)
+            {
+                return BadRequest();
             }
             return Ok(user);
         }

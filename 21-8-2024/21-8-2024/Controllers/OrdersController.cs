@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace _21_8_2024.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class OrdersController : Controller
     {
         private readonly MyDbContext db;
@@ -10,11 +12,10 @@ namespace _21_8_2024.Controllers
         {
             db = context;
         }
-        public IActionResult Index()
-        {
-            return View();
-        }
-        [HttpGet("product/getAllOrders")]
+
+
+
+        [HttpGet]
 
         public IActionResult getAllOrders()
         {
@@ -26,7 +27,7 @@ namespace _21_8_2024.Controllers
 
             return Ok(order);
         }
-        [HttpGet("product/GetOrderById")]
+        [HttpGet("order/GetOrderById")]
 
         public IActionResult GetOrderById([FromQuery] int id)
         {
@@ -41,7 +42,7 @@ namespace _21_8_2024.Controllers
             }
             return Ok(order);
         }
-        [HttpGet("product/GetOrderByDate")]
+        [HttpGet("order/GetOrderByName")]
 
         public IActionResult GetOrderByName([FromQuery] string date)
         {
@@ -56,7 +57,7 @@ namespace _21_8_2024.Controllers
             }
             return Ok(order);
         }
-        [HttpDelete("{id}")]
+        [HttpDelete("{id:int}")]
         public IActionResult DeleteOrder(int id)
         {
             var order = db.Orders.FirstOrDefault(x => x.Id == id);

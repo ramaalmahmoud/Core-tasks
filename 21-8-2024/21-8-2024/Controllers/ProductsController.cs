@@ -56,7 +56,7 @@ namespace _21_8_2024.Controllers
             return Ok(product);
         }
         [HttpDelete("{id}")]
-        public IActionResult DeleteProduct( int id)
+        public IActionResult DeleteProduct(int id)
         {
             var product = db.Products.FirstOrDefault(x => x.Id == id);
             if (product == null)
