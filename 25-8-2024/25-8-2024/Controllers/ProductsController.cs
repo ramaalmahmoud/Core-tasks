@@ -49,6 +49,13 @@ namespace _25_8_2024.Controllers
             }
             return Ok(cat);
         }
+        [HttpGet]
+        [Route("product/getProductsDescending")]
+        public IActionResult getProductsDescending()
+        {
+         var itemList=db.Products.OrderByDescending(x=>x.Price).ToList();
+            return Ok(itemList);
+        }
 
     }
 }

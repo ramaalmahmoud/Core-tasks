@@ -19,8 +19,8 @@
       "RelativeMoniker": "D:0:0:{D1D6832C-9680-4555-BD5C-1261960B8732}|25-8-2024\\25-8-2024.csproj|solutionrelative:25-8-2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Orange\\Desktop\\Core-tasks\\Core-tasks\\25-8-2024\\25-8-2024\\Models\\MyDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:25-8-2024\\Models\\MyDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1D6832C-9680-4555-BD5C-1261960B8732}|25-8-2024\\25-8-2024.csproj|c:\\users\\orange\\desktop\\core-tasks\\core-tasks\\25-8-2024\\25-8-2024\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D6832C-9680-4555-BD5C-1261960B8732}|25-8-2024\\25-8-2024.csproj|solutionrelative:25-8-2024\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "25-8-2024\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-tasks\\Core-tasks\\25-8-2024\\25-8-2024\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "25-8-2024\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAowCkAAAAnAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAA7wDcAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T13:54:33.751Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "25-8-2024\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T13:57:02.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-25T13:57:02.341Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "25-8-2024\\Controllers\\CategoriesController.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAuwCIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T13:55:14.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-25T13:55:14.645Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "25-8-2024\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-25T13:57:27.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-25T13:57:27.473Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "25-8-2024\\Models\\MyDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T13:57:01.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-25T13:57:01.025Z"
             }
           ]
         },
