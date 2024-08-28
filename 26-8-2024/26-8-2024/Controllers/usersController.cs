@@ -63,6 +63,45 @@ namespace _26_8_2024.Controllers
             return NoContent();
 
         }
+        [HttpPost("calculate")]
+        public IActionResult calaculation(string cal)
+        {
+
+            //var nums=cal.Split(' ');
+
+            //int num1=Convert.ToInt32(nums[0]);
+            //int num2 = Convert.ToInt32(nums[2]);
+            //string operators= nums[1];
+            //switch (operators)
+            //{
+            //    case "+":
+            //        return Ok( num1 + num2);
+            //    case "-":
+            //        return Ok(num1 - num2);
+            //}
+
+            string operators = cal.Contains("+") ? "+" : "-";
+           
+          
+            switch (operators)
+            {
+                case "+":
+                    var nums = cal.Split('+');
+                    int num1 = Convert.ToInt32(nums[0]);
+                    int num2 = Convert.ToInt32(nums[1]);
+                    return Ok(num1+num2);
+                case "-":
+                     nums = cal.Split('-');
+                     num1 = Convert.ToInt32(nums[0]);
+                    num2 = Convert.ToInt32(nums[1]);
+                    return Ok(num1-num2);
+            }
+            
+            
+
+            return Ok();
+           
+        }
 
 
     }

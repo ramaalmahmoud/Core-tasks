@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .vertical-navbar {
+            height: 100vh; /* Full height of the viewport */
+            width: 250px; /* Adjust the width as needed */
+            position: fixed; /* Fixed position to stick to the side */
+            top: 0;
+            left: 0;
+            background-color: #f8f9fa;
+            padding-top: 20px;
+        }
+        .vertical-navbar .nav-item {
+            width: 100%;
+        }
+        .vertical-navbar .nav-link {
+            display: block;
+            padding: 10px 15px;
+            color: #000;
+            text-align: center;
+        }
+        .vertical-navbar .nav-link:hover {
+            background-color: #e9ecef;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light vertical-navbar">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Dashboard <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="../Admin/category.html">Category</a>
+            <a class="nav-item nav-link" href="../Admin/product.html">Products</a>
+        </div>
+    </nav>
+
+    <!-- Add some content to see the effect -->
+    <div style="margin-left: 250px; padding: 20px;">
+        <h1>Admin Dashboard</h1>
+        <p>Welcome to Admin Dashboard</p>
+    </div>
+  
+</body>
+</html>

@@ -22,7 +22,7 @@ async function getAllCategories() {
         <p class="card-text">${element.description}</p>
          <p class="card-text">${element.price} $</p>
        
-        <a href="" class="btn btn-primary"  onclick="storeCategoryID(${element.id})">add to cart</a>
+        <a href="../Products/edit-product.html" class="btn btn-primary"  onclick="storeProductID(${element.id})">edit this product</a>
       </div>
     </div> 
           `;
