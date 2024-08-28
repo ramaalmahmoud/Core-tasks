@@ -26,7 +26,9 @@ async function getAllCategories() {
     result.forEach(element => {
         container.innerHTML +=`
         <div id="card" class="card" style="width: 18rem;">
-    <img id="image" class="card-img-top" src="../images/${element.productImage} "alt="Card image cap">
+    <img id="
+    
+    " class="card-img-top" src="../images/${element.productImage} "alt="Card image cap">
     <div id="card-body" class="card-body">
       <h5 id="card-title" class="card-title">${element.productName}</h5>
       <p class="card-text">${element.description}</p>

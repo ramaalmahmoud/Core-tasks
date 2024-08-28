@@ -1,7 +1,47 @@
 
+debugger
+async function addToCart(){
+    debugger
+localStorage.productID=1;
+localStorage.cartID=2;
+
+
+const url="https://localhost:7010/addtocart";
+const product ={
+  cartId: 2,
+  productId: 3,
+  quantity: 3
+}
+event.preventDefault();
+let response=await fetch(url,{
+  method:'POST',
+  body:JSON.stringify(product),
+  headers:{
+     'Content-Type': 'application/json'
+  }
+})
+window.alert("the item added sucssefuly");
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//=====================================================================================================================================================================
 let n2=localStorage.getItem("ProductID");
-
-
 async function getAllCategories() {
     let urlbyID=`https://localhost:7218/product/getProductsbyID/${n2}`; 
       
@@ -21,8 +61,8 @@ async function getAllCategories() {
         <h5 id="card-title" class="card-title">${element.productName}</h5>
         <p class="card-text">${element.description}</p>
          <p class="card-text">${element.price} $</p>
-       
-        <a href="../Products/edit-product.html" class="btn btn-primary"  onclick="storeProductID(${element.id})">edit this product</a>
+       <input id="quantity" type="number">
+        <a href="" class="btn btn-primary"  onclick="addToCart()">add to cart</a>
       </div>
     </div> 
           `;
@@ -32,3 +72,5 @@ async function getAllCategories() {
       
   }
   getAllCategories();
+
+  

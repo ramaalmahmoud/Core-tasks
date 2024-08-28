@@ -6,6 +6,23 @@ namespace _27_8_2024.Controllers
 {
     public class CategoriesController : Controller
     {
+
+        [HttpPost("multi")]
+        public IActionResult MULTI(int ID)
+        {
+            if (ID > 0)
+            {
+                if (ID % 3 == 0 || ID % 7 == 0)
+                {
+                    return Ok(true);
+                }
+                else
+                {
+                    return Ok(false);
+                }
+            }
+            return Ok(false);
+        }
         private readonly MyDbContext db;
         public CategoriesController(MyDbContext _db)
         {

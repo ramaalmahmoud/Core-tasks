@@ -48,9 +48,22 @@
               "RelativeDocumentMoniker": "25-8-2024\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-tasks\\Core-tasks\\25-8-2024\\25-8-2024\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "25-8-2024\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAkwCgAAAAAAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAYAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T13:54:33.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-tasks\\Core-tasks\\25-8-2024\\25-8-2024\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "25-8-2024\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-tasks\\Core-tasks\\25-8-2024\\25-8-2024\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "25-8-2024\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T13:55:14.645Z",
               "EditorCaption": ""
             },
             {
@@ -64,18 +77,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T13:57:02.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Core-tasks\\Core-tasks\\25-8-2024\\25-8-2024\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "25-8-2024\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Core-tasks\\Core-tasks\\25-8-2024\\25-8-2024\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "25-8-2024\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAuwCIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T13:55:14.645Z"
             },
             {
               "$type": "Document",
