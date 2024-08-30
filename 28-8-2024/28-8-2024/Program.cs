@@ -20,8 +20,10 @@ options.AddPolicy("development", builder =>
 
 })
 );
+
 var app = builder.Build();
 app.UseCors("development");
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
