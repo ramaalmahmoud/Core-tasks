@@ -16,7 +16,8 @@ namespace _26_8_2024.Controllers
             [HttpGet]
             public IActionResult GetProduct()
             {
-                return Ok(db.Products.ToList());
+            var product = db.Products.OrderByDescending(x => x.ProductName).ToList().TakeLast(5);
+                return Ok(product);
             }
             [HttpGet("{id}")]
             public IActionResult GetProduct(int id)
